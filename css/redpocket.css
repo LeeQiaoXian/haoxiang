@@ -1,0 +1,185 @@
+html,div,body,ul,li{
+	margin: 0px;
+	padding: 0px;
+}
+/*去掉小黑点*/
+li{
+	list-style: none;
+}
+/*去掉下划线*/
+a{
+	text-decoration: none;
+	color: black;
+}
+.redpockets{
+	width: 100%;
+	min-width: 1190px;
+	height: auto;
+	margin: 175px auto;
+}
+.redpocket_hb{
+	height: 28px;
+	line-height: 33px;
+	border-bottom: 2px solid #1a1a1a;
+	font-size: 18px;
+	color: #1a1a1a;
+	margin-left: 60px;
+}
+.redpocket_hb>span{
+	display: block;
+	float: left;
+	width: 7px;
+	height: 19px;
+	margin: 5px;
+	background: #b70841;
+	margin-right: 8px;
+}
+.redpocket_tu{
+	/*width: 1190px;*/
+	height: auto;
+	border: 1px solid darkgray;
+	border-top: none;
+	margin-left: 60px;
+}
+.qiang{
+    width: 728px;
+    height: 292px;
+    position: relative;
+    margin: 0 auto;
+    background: url(../img/evlope_bg.png) no-repeat;
+}
+.qiang_zi{
+	text-align: center;
+    padding-top: 63px;
+    height: 276px;
+}
+.youhui{
+    /*width: 1190px;*/ 
+    height: 37px;
+    border: 1px solid #e4e4e4;
+    border-top: 1px solid #e4e4e4;
+    background: #f5f5f5;
+    margin-left: 60px;
+}
+.youhui>ul>li{
+    float: left;
+    margin-bottom: -1px;
+}
+.youhui>ul>li>a{
+	font-size: 12px;
+    margin-left: 30px;
+    line-height: 35px;
+}
+.redpocket_wrap{
+	width: 1164px;
+    height: auto;
+    border: 1px solid #e4e4e4;
+    margin: 12px 60px;
+}
+.redpocket_tit{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    background: #f5f5f5;
+    border-bottom: 1px solid #e4e4e4;
+    font-size: 12px;
+    color: #1a1a1a;
+    text-indent: 22px;
+}
+.redpocket_slide{
+	width: 1190px;
+    height: 207px;
+    margin: 0 auto;
+}
+.redpocket_inner{
+    width: 1098px;
+    margin: 0 auto;
+}
+.redpocket_active>ul{
+    width: 1098px;
+    height: 165px;
+    margin-top: 35px;
+}
+.redpocket_active>ul>li{
+    width: 334px;
+    height: 165px;
+    float: left;
+    margin-left: 24px;
+}
+.redpocket_curs{
+    background: url(../img/ticket_bg.png) no-repeat;
+    width: 334px;
+    height: 122px;
+    position: relative;
+}
+.redpocket_curs>p{
+    clear: both;
+    color: #fff;
+    margin-left: 16px;
+    line-height: 28px;
+}
+.view_ticket{
+    display: block;
+    width: 156px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    color: #b70841;
+    margin: 8px auto;
+    border: 1px solid #b70841;
+    border-radius: 3px;
+    font-size: 13px;
+}
+.y{
+	font-size: 12px;
+}
+.tic_list_tit{
+	height: 34px;
+    line-height: 36px;
+    font-size: 13px;
+}
+.tic_list_tit>i{
+    display: block;
+    background: url(../img/tic_ico.png) no-repeat;
+    width: 22px;
+    height: 20px;
+    float: left;
+    margin: 8px 10px;
+}
+.tic_list_reduce>span{
+    display: block;
+    float: left;
+    font-size: 13px;
+    color: orange;
+}
+.tic_list_reduce>span>strong{
+    font-size: 21px;
+    display: block;
+}
+.tic_list_reduce>font{
+    display: block;
+    float: left;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 46px;
+    color: orange;
+}
+.tic_list_reduce .info{
+    background: url(../img/info_bg.png) no-repeat;
+    width: 99px;
+    height: 34px;
+    float: left;
+    text-align: center;
+    margin: 5px 10px;
+    line-height: 30px;
+    color: orange;
+}
+.right_coupon{
+    width: 18px;
+    margin: 20px 10px 0 0;
+    float: right;
+    font-size: 15px;
+    margin-top: -7px;
+    line-height: 18px;
+    font-weight: bold;
+}

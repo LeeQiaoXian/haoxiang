@@ -1,0 +1,191 @@
+html,div,body,ul,li{
+	margin: 0px;
+	padding: 0px;
+}
+/*去掉小黑点*/
+li{
+	list-style: none;
+}
+/*去掉下划线*/
+a{
+	text-decoration: none;
+	color: black;
+}
+.fooldbox{
+	width: 100%;
+	min-width: 1349px;
+	height: 788px;
+	margin: auto;
+}
+.fooldtu{
+	width: 100%;
+	height: 190px;
+    background: #f9f9f9;
+    margin-left: -55px;
+}
+.fooldtu ul{
+	width: 100%;
+	height: 240px;
+    margin: auto 55px;
+}
+.fooldtu ul li{
+	float: left;
+	position: relative;
+    margin: 30px 45px;
+}
+.fooldtu ul li:nth-child(1){
+	width: 160px;
+	height: 132px;
+	background: url(../img/service_01.png) no-repeat;
+}
+.fooldtu ul li:nth-child(2){
+	width: 160px;
+	height: 132px;
+	background: url(../img/service_02.png) no-repeat;
+}
+.fooldtu ul li:nth-child(3){
+	width: 160px;
+	height: 132px;
+	background: url(../img/service_03.png) no-repeat;
+}
+.fooldtu ul li:nth-child(4){
+	width: 160px;
+	height: 132px;
+	background: url(../img/service_04.png) no-repeat;
+}
+.fooldtu ul li:nth-child(5){
+	width: 160px;
+	height: 132px;
+	background: url(../img/service_05.png) no-repeat;
+}
+.fooldtu ul li i{
+	width: 2px;
+	height: 46px;
+	position: absolute;
+	background: url(../img/service_line.png) no-repeat;
+    margin: 10px -50px;
+}
+.fooldbottom{
+	width: 100%;
+	height: 240px;
+    margin: 25px -3px;
+}
+.kehud_weixin{
+	width: 335px;
+	height: 180px;
+	float: left;
+    margin-left: 45px;
+    position: relative;
+}
+.kehud_weixin span{
+	width: 146px;
+	height: 178px;
+	position: absolute;
+    color: #6b6b6b;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+}
+.kehud_weixin span img{
+	width: 100%;
+	height: 146px;
+}
+.kehud_weixin span:nth-child(2){
+    margin: 0 185px;
+}
+.fooldbottom ul{
+	width: 115px;
+	height: 175px;
+	float: left;
+    margin: 10px 25px;
+}
+.fooldbottom ul li{
+	float: left;
+	width: 115px;
+	color: #666666;
+    line-height: 25px;
+    font-size: 12px;
+}
+.fooldbottom ul li:hover{
+	color: darkorange;
+	cursor: pointer;
+}
+.Tels a:hover{
+	cursor: pointer;
+	color: orange;
+}
+.fooldbottom ul li:nth-of-type(1){
+	color: #565656;
+	font-size: 13px;
+	font-weight: bold;
+    margin-bottom: 18px;
+}
+.bottoms{
+	width: 100%;
+	height: 265px;
+	margin: auto -50px;
+}
+.Tels{
+    width: 600px;
+    margin: 0 365px;
+    color: #525151;
+    font-size: 17px;
+}
+.Tels a{
+	margin: 0 20px;
+    font-size: 15px;
+    color: gray;
+    font-family: '微软雅黑';
+}
+.hrs{
+    width: 100%;
+    height: 3px;
+    background: #ed145b;
+    margin-top: 15px;
+}
+.kapian{
+    width: 900px;
+    height: 68px;
+    margin: 10px 210px;
+}
+.kapian ul li{
+	float: left;
+    margin: 10px 23px;
+}
+.kapian li:nth-child(4){
+    margin-top: 15px;
+}
+.kapian li:nth-child(5){
+    margin-top: 22px;
+}
+.adrees{
+    width: 555px;
+    margin: 15px 305px;
+    overflow: hidden;
+}
+.log{
+    width: 136px;
+    height: 50px;
+    float: left;
+    margin-top: 40px;
+}
+.content{
+    width: 399px;
+    float: right;
+}
+.content p{
+    color: #b5b5b5;
+    font-size: 12px;
+    height: 16px;
+    line-height: 16px;
+}
+.content p:nth-child(1){
+    font-size: 13px;
+    color: #7d7777;
+    font-weight: bold;
+}
+.gs{
+    margin: 10px 555px;
+    width: 80px;
+    height: 105px;
+}

@@ -1,0 +1,78 @@
+html,div,body,ul,li{
+	margin: 0px;
+	padding: 0px;
+}
+/*去掉小黑点*/
+li{
+	list-style: none;
+}
+/*去掉下划线*/
+a{
+	text-decoration: none;
+	color: black;
+}
+.evencont{
+	width: 1190px;
+	height: auto;
+	overflow: hidden;
+	margin: 170px auto;
+}
+.even_lit{
+	width: 1160px;
+	height: 28px;
+	line-height: 33px;
+	font-size: 18px;
+	color: #1a1a1a;
+    border-bottom: 2px solid black;
+	margin:0 40px;
+}
+.even_lit>span{
+	display: block;
+	float: left;
+	width: 7px;
+	height: 19px;
+	margin: 5px;
+	background: #b70841;
+	margin-right: 8px;
+}
+.evens{
+	width: 1182px;
+	/*height: 1205px;*/
+    margin: 0 20px;
+}
+.evens>ul{
+	width: 100%;
+	height: 100%;
+	margin-left: 22px;
+	overflow: hidden;
+}
+.evens>ul>li{
+	width: 558px;
+	height: 331px;
+	padding: 5px;
+	float: left;
+	margin: 15px auto;
+}
+.evens>ul>li>p:hover a{
+	color: orange;
+}
+.evens>ul>li>a>img{
+	width: 563px;
+	height: 289px;
+}
+.evens>ul>li>a{
+    width: 538px;
+    display: block;
+    overflow: hidden;
+}
+.evens>ul>li>p{
+	width: 536px;
+	height: 28px;
+	line-height: 18px;
+	font-size: 15px;
+	float: left;
+    border-bottom: 1px dashed #e4e4e4;
+}
+.evens>ul>li>p>a:hover{
+	color: darkorange;
+}

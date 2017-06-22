@@ -1,0 +1,194 @@
+html,div,body,ul,li{
+	margin: 0px;
+	padding: 0px;
+}
+/*去掉小黑点*/
+li{
+	list-style: none;
+}
+/*去掉下划线*/
+a{
+	text-decoration: none;
+	color: black;
+}
+.golbuytu{
+	width: 100%;
+	min-width: 1349px;
+	height: 376px;
+	overflow: hidden;
+    padding-top: 43px;
+}
+.golbuytu>img{
+	width: 100%;
+}
+.goldcons{
+	width: 1190px;
+	height: auto;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.golcontent1{
+	width: 1190px;
+	overflow: hidden;
+	margin: 0 5px;
+}
+.golcontent1>ul>li{
+	width: 290px;
+	height: 290px;
+	float: left;
+	margin-right: 5px;
+	border: 1px solid #e4e4e4;
+}
+.golcontent1>ul>li>img{
+	width: 100%;
+	height: 100%;
+}
+.golcontent2{
+	width: 1190px;
+	height: 50px;
+	margin: 25px 5px;
+	border-bottom: 1px solid #e4e4e4;
+}
+.golcontent2>ul>li{
+	float: left;
+	width: 195px;
+	height: 50px;
+	border: 1px solid #e4e4e4;
+	border-bottom: 4px solid #ed145b;
+	font-size: 18px;
+	text-align: center;
+    line-height: 53px;
+    font-family: '微软雅黑';
+}
+.golcontent2>ul>li:nth-child(1) a{
+	color: white;
+}
+.golcontent3>ul{
+	width: 1190px;
+	margin: 0 5px;
+	padding-top: 20px;
+	overflow: hidden;
+}
+.golcontent3>ul>li{
+	width: 290px;
+	height: 330px;
+	/*padding: 0 18px;*/
+	float: left;
+	border: 1px solid #e4e4e4;
+	margin-right: 5px;
+	margin-bottom: 10px;
+}
+.golcontent3>ul>li:hover{
+	border: 1px solid #ed145b;
+}
+.golcontent3>ul>li .golworld:hover a{
+	color: orange;
+}
+.golcontent2>ul>li:hover a{
+	color: #ed145b;
+}
+.golcontent2>ul>li:nth-child(1):hover a{
+	color: white;
+}
+
+.golcontent3>ul>li .goltu{
+    width: 77%;
+    height: 0;
+    margin-bottom: 4px;
+    text-align: center;
+    margin: 0 6%;
+    padding-bottom: 77%;
+    position: relative;
+}
+.golcontent3>ul>li .goltu img{
+	width: 223px;
+	height: 223px;
+}
+.golcontent3>ul>li .golmoney{
+    font-size: 18px;
+    line-height: 15px;
+}
+.golcontent3>ul>li .golmoney>a{
+    color: #b70841;
+    font-weight: bold;
+}
+.golcontent3>ul>li .golmoney>a>span{
+	font-size: 13px;
+}
+.golcontent3>ul>li .golworld{
+    height: 36px;
+    font-size: 13px;
+    line-height: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.golcontent3 .golquanq{
+    background: url(../img/global.png) no-repeat;
+    width: 60px;
+    height: 20px;
+    float: left;
+    margin-top: 8px;
+    margin-right: 5px;
+}
+.golcontent3>ul>li .goladree>a{
+    height: 20px;
+    padding: 0 10px;
+    display: inline-block;
+    color: #ed145b;
+    font-size: 13px;
+    border-radius: 3px;
+    border: 1px solid #e4e4e4;
+    margin-top: 8px;
+}
+.golpage{
+	float: right;
+    margin-right: 5px;
+}
+.golpage>ul{
+    /* display: inline-block; */
+    padding-left: 0;
+    margin: 20px 0;
+    border-radius: 4px;
+}
+.golpage>ul>li{
+    display: block;
+    float: left;
+    margin-left: 5px;
+    border: 1px solid darkgray;
+    background: #f4f4f4;
+}
+.golpage>ul>li>a{
+	background: #f4f4f4;
+	color: darkgray;
+}
+.golpage>ul>li:nth-child(2) a{
+	background: 0;
+    border: 0;
+    color: #e75a69;
+}
+.golpage>ul>li:nth-child(3) a{
+    background: #f4f4f4;
+}
+.golpage>ul>li:nth-child(4){
+    color: #ccc;
+    padding: 0 10px;
+    font-size: 14px;
+    border: none;
+}
+.prvepage>a>span>i{
+    background: url(../img/jiantou_02.png) no-repeat center;
+    width: 7px;
+    height: 13px;
+    display: block;
+    float: left;
+    color: #cecece;
+    margin: 5px 5px;
+}
+.nextpage>a>span>i{
+    background: url(../img/jiantou_01.png) no-repeat center;
+    width: 7px;
+    height: 13px;
+    display: block;
+    float: right;
+    margin: 5px 5px;
+}

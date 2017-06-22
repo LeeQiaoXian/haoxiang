@@ -1,0 +1,164 @@
+html,div,body,ul,li{
+	margin: 0px;
+	padding: 0px;
+}
+/*去掉小黑点*/
+li{
+	list-style: none;
+}
+/*去掉下划线*/
+a{
+	text-decoration: none;
+	color: black;
+}
+.box{
+	width: 100%;
+	min-width: 1348px;
+	height: 100%;
+	background: white;
+	position: relative;
+}
+.register_top{
+	width: 100%;
+	height: 135px;
+    margin-top: 25px;
+}
+.register_top img{
+	width: 204px;
+	height: 82px;
+	margin-left: 120px;
+	position: absolute;
+}
+.register_top span{
+    width: 82px;
+    height: 23px;
+    margin-left: 340px;
+    margin-top: 33px;
+    position: absolute;
+    font-size: 20px;
+}
+.hr{
+	width: 100%;
+	height: 3px;
+	background: #2f2f2f;
+	margin: -25px;
+}
+.register_zc{
+    width: 100%;
+    height: 620px;
+}
+.register_tu{
+	width: 966px;
+    height: 48px;
+    background: url(../img/regist_one.png) no-repeat center;
+    margin: 0 125px;
+    margin-top: 75px;
+}
+.registLeft{
+	width: 480px;
+	height: 285px;
+	float: left;
+    margin: 25px 60px;
+}
+.form_tel{
+    width: 100%;
+    /*line-height: 50px;*/
+    margin-top: 24px;
+    position: relative;
+    margin-left: 65px;
+}
+.form_tel label{
+    position: absolute;
+    left: 22px;
+    color: #242323;
+    font-size: 15px;
+    line-height: 60px;
+}
+.form_tel>input{
+    padding-left: 120px;
+    height: 50px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    width: 355px;
+    color: #ddd;
+}
+.form_tu{
+	width: 100%;
+    margin-top: 24px;
+    position: relative;
+    margin-left: 65px;
+}
+.form_tu label{
+    position: absolute;
+    left: 80px;
+    color: #242323;
+    font-size: 15px;
+    margin: 50px -60px;
+}
+.form_tu>input{
+	padding-left: 120px;
+    height: 50px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    width: 355px;
+    color: #ddd;
+    margin-top: 30px;
+}
+.yzmtu{
+    width: 111px;
+    height: 45px;
+    position: relative;
+    bottom: 5px;
+    margin: -40px 430px;
+}
+.yzmtu img{
+    width: 100%;
+    height: 40px;
+}
+/*.forms{
+    float: left;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    color: #b1b1b1;
+    font-size: 14px;
+    padding-left: 40px;
+    position: relative;
+}*/
+.xyb{
+    width: 100%;
+    line-height: 46px;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    margin-top: 120px;
+    background-color: #fa7117;
+    border: 0;
+    padding: 6px 30px;
+    color: white;
+    margin-left: 65px;
+}
+.registright{
+    width: 385px;
+    height: 320px;
+    border: 1px solid #dedede;
+    float: left;
+    margin: 45px 105px;
+}
+.rightTop{
+    height: 75px;
+    line-height: 75px;
+    font-size: 15px;
+    border-bottom: 1px solid #dedede;
+    text-align: center;
+}
+.rightTop>a{
+	color: orange;
+}
+.qqcom{
+    padding: 30px 35px;
+}
+.qqcom p{
+    font-size: 16px;
+    line-height: 5px;
+}

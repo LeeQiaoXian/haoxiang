@@ -1,0 +1,1212 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript" src="js/jquery-2.1.0.js"></script>
+		<link rel="stylesheet" href="css/publictop.css" />
+		<link rel="stylesheet" href="css/channel.css" />
+		<link rel="stylesheet" href="css/publicfoolder.css" />
+	</head>
+
+	<body>
+		<!--头部-->
+		<div class="header">
+			<div class="header_1">
+				<div class="dingou">订购热线：400-608-8888</div>
+				<ul>
+					<li>欢迎来到好享购物</li>
+					<li>|</li>
+					<li><a href="login.html">登录</a></li>
+					<li>|</li>
+					<li><a href="register.html">注册</a></li>
+					<li>|</li>
+					<li><a href="#">我的订单</a></li>
+					<li>|</li>
+					<li class="myhao24">
+						<a href="#">我的hao24</a>
+						<ul class="bxul">
+							<li><a href="#">我的购物金</a></li>
+							<li><a href="#">我的优惠券</a></li>
+							<li><a href="#">我的积分卡</a></li>
+							<li><a href="#">我的暂存款</a></li>
+						</ul>
+					</li>
+					<li>|</li>
+					<li class="shouji">
+						<a href="#"><i></i>手机购物</a>
+						<ul>
+							<li><img src="img/app_code.jpg" /></li>
+							<li>扫一扫，下载客户端</li>
+						</ul>
+					</li>
+					<li>|</li>
+					<li><a href="#">服务中心</a></li>
+				</ul>
+			</div>
+			<div class="header_2">
+				<a href="#"><img src="img/logo.jpg" /></a>
+				<a href="#"><img src="img/149095270793366373.jpg" /></a>
+				<div class="header_sousuo">
+					<input type="text" placeholder="请输入关键字" />
+					<span>
+						<button>搜索</button>
+					</span>
+				</div>
+				<div class="header_ul">
+					<ul>
+						<li><a href="#">美国西屋</a></li>
+						<li><a href="#">小熊电热饭盒</a></li>
+						<li><a href="#">吉优百换鞋收纳凳</a></li>
+						<li><a href="#">收纳用品</a></li>
+						<li><a href="#">莱客</a></li>
+						<li><a href="#">内衣</a></li>
+						<li><a href="#">乳胶床垫</a></li>
+					</ul>
+				</div>
+				<!--购物车-->
+			    <div class="i_cart">
+					<div class="i_c_icon">
+					    <i class="ic_left"></i>
+					    <a href="" target="_blank">我的购物车</a>
+					    <i class="ic_count" style="display: none;">0</i>
+					    <i class="ic_right"></i>
+					</div>
+					<div class="i_menu" data-last_time="0">
+						<div class="nogoods"><b></b>您的购物车已经饿扁了,快去逛逛吧</div>
+					</div>
+			    </div>
+			</div>
+			<!--导航栏-->
+			<div class="header_daohang">
+				<div class="daohang">
+					<ul>
+						<li id="lis" style="background: rgba(0,0,0,.5);">
+							<a href="#">全部类目</a>
+							<div class="banerConten">
+								<ul class="jectContent">
+									<div class="jectcon">
+									<li class="je_li">
+										<a href="#"><i><img src="img/purchase.png" /></i>全球购</a>
+										<ul id="hide_mask">
+											<li>
+												<h2><a target="_blank" href="">美容护肤</a></h2>
+									          	<div class="sub_mask_text">
+														<a target="_blank" href="">
+															<span></span>美妆护肤
+														</a>
+									            </div>
+											</li>
+											<li>
+												<h2><a target="_blank" href="">家居日用</a></h2>
+									          	<div class="sub_mask_text">
+														<a target="_blank" href="">
+															<span></span>家居用品
+														</a>
+									            </div>
+											</li>
+											<li>
+												<h2><a target="_blank" href="">个护健康</a></h2>
+									          	<div class="sub_mask_text">
+														<a target="_blank" href="">
+															<span></span>个护健康
+														</a>
+									            </div>
+											</li>
+											<li>
+												<h2><a target="_blank" href="">保健品</a></h2>
+									          	<div class="sub_mask_text">
+														<a target="_blank" href="">
+															<span></span>保健品
+														</a>
+									            </div>
+											</li>
+											<li>
+												<h2><a target="_blank" href="">钟表首饰</a></h2>
+									          	<div class="sub_mask_text">
+														<a target="_blank" href="">
+															<span></span>钟表
+														</a>
+									            </div>
+											</li>
+										</ul>
+									</li>
+									<li class="je_li">
+										<a href="#"><i><img src="img/delicacy.png" /></i>美食饮酒</a>
+										<ul id="hide_mask" style="margin-top: -58px;">
+											<li>
+												<h2><a target="_blank" href="">食品饮料</a></h2>
+									          	<div class="sub_mask_text">
+														<a target="_blank" href="">
+															<span>|</span>进口食品
+														</a>
+														<a target="_blank" href="">
+															<span>|</span>休闲食品
+														</a>
+														<a target="_blank" href="">
+															<span>|</span>粮油调味
+														</a>
+														<a target="_blank" href="">
+															<span>|</span>冲调饮料
+														</a>
+														<a target="_blank" href="">
+															<span>|</span>时尚礼券
+														</a>
+														<a target="_blank" href="">
+															<span>|</span>茗茶
+														</a>
+														<a target="_blank" href="">
+															<span></span>地方特产
+														</a>
+									            </div>
+											</li>
+											<li>
+												<h2><a target="_blank" href="">生鲜</a></h2>
+									          	<div class="sub_mask_text">
+														<a target="_blank" href="">
+															<span>|</span>水果、蔬菜
+														</a>
+														<a target="_blank" href="">
+															<span>|</span>海鲜水产
+														</a>
+														<a target="_blank" href="">
+															<span>|</span>肉禽蛋奶
+														</a>
+														<a target="_blank" href="">
+															<span></span>熟食腊味
+														</a>
+									            </div>
+											</li>
+											<li>
+												<h2><a target="_blank" href="">中外名酒</a></h2>
+									          	<div class="sub_mask_text">
+														<a target="_blank" href="">
+															<span>|</span>白酒
+														</a>
+														<a target="_blank" href="">
+															<span>|</span>葡萄酒
+														</a>
+														<a target="_blank" href="">
+															<span></span>洋酒
+														</a>
+									            </div>
+											</li>
+											<li>
+												<h2><a target="_blank" href="">保健食品</a></h2>
+									          	<div class="sub_mask_text">
+														<a target="_blank" href="">
+															<span>|</span>营养健康
+														</a>
+														<a target="_blank" href="">
+															<span>|</span>营养成分
+														</a>
+														<a target="_blank" href="">
+															<span></span>传统滋补
+														</a>
+									            </div>
+											</li>
+											<li>
+												<h2><a target="_blank" href="">卫生保健</a></h2>
+									          	<div class="sub_mask_text">
+														<a target="_blank" href="">
+															<span>|</span>保健器械
+														</a>
+														<a target="_blank" href="">
+															<span></span>急救卫生
+														</a>
+									            </div>
+											</li>
+										</ul>
+									</li>
+									<li class="je_li">
+										<a href="#"><i><img src="img/beauty.png" /></i>个肤美妆</a>
+										<ul id="hide_mask" style="margin-top: -115px;">
+											<li>
+												<h2><a target="_blank" href="">清洁护肤</a></h2>
+									          	<div class="sub_mask_text">
+														<a target="_blank" href="">
+															<span>|</span>面部护肤
+														</a>
+														<a target="_blank" href="">
+															<span>|</span>身体护肤
+														</a>
+														<a target="_blank" href="">
+															<span></span>洗发护发
+														</a>
+									            </div>
+											</li>
+											<li>
+												<h2><a target="_blank" href="">香水彩妆</a></h2>
+									          	<div class="sub_mask_text">
+														<a target="_blank" href="">
+															<span>|</span>香水
+														</a>
+														<a target="_blank" href="">
+															<span></span>彩妆
+														</a>
+									            </div>
+											</li>
+											<li>
+												<h2><a target="_blank" href="">健康护理</a></h2>
+									          	<div class="sub_mask_text">
+														<a target="_blank" href="">
+															<span>|</span>口腔护理
+														</a>
+														<a target="_blank" href="">
+															<span>|</span>女性护理
+														</a>
+														<a target="_blank" href="">
+															<span></span>个护器械
+														</a>
+									            </div>
+											</li>
+										</ul>
+									</li>
+									<li class="je_li">
+										<a href="#"><i><img src="img/kitchen.png" /></i>家居生活</a>
+										<ul id="hide_mask" style="margin-top: -173px;">
+											<li>
+												<h2><a target="_blank" href="">小家电</a></h2>
+									          	<div class="sub_mask_text">
+														<a target="_blank" href="">
+															<span>|</span>生活电器
+														</a>
+														<a target="_blank" href="">
+															<span></span>厨房电器
+														</a>
+									            </div>
+											</li>
+											<li>
+												<h2><a target="_blank" href="">家居日用</a></h2>
+									          	<div class="sub_mask_text">
+														<a target="_blank" href="">
+															<span>|</span>生活日用
+														</a>
+														<a target="_blank" href="">
+															<span>|</span>清洁用品
+														</a>
+														<a target="_blank" href="">
+															<span>|</span>灯具
+														</a>
+														<a target="_blank" href="">
+															<span></span>家装软饰
+														</a>
+									            </div>
+											</li>
+											<li>
+												<h2><a target="_blank" href="">厨具</a></h2>
+									          	<div class="sub_mask_text">
+														<a target="_blank" href="">
+															<span>|</span>烹饪锅具
+														</a>
+														<a target="_blank" href="">
+															<span>|</span>刀剪菜板
+														</a>
+														<a target="_blank" href="">
+															<span>|</span>厨房配件
+														</a>
+														<a target="_blank" href="">
+															<span>|</span>水具酒具
+														</a>
+														<a target="_blank" href="">
+															<span>|</span>餐具
+														</a>
+														<a target="_blank" href="">
+															<span></span>茶具、咖啡具
+														</a>
+									            </div>
+											</li>
+											<li>
+												<h2><a target="_blank" href="">家具</a></h2>
+									          	<div class="sub_mask_text">
+														<a target="_blank" href="">
+															<span>|</span>卧室家具
+														</a>
+														<a target="_blank" href="">
+															<span>|</span>客厅家具
+														</a>
+														<a target="_blank" href="">
+															<span>|</span>餐厅家具
+														</a>
+														<a target="_blank" href="">
+															<span>|</span>书房家具
+														</a>
+														<a target="_blank" href="">
+															<span>|</span>储物家具
+														</a>
+														<a target="_blank" href="">
+															<span></span>阳台、户外
+														</a>
+									            </div>
+											</li>
+											<li>
+												<h2><a target="_blank" href="">宠物生活</a></h2>
+									          	<div class="sub_mask_text">
+														<a target="_blank" href="">
+															<span></span>宠物零食
+														</a>
+									            </div>
+											</li>
+											<li>
+												<h2><a target="_blank" href="">母婴</a></h2>
+									          	<div class="sub_mask_text">
+														<a target="_blank" href="">
+															<span>|</span>奶粉
+														</a>
+														<a target="_blank" href="">
+															<span>|</span>童装童鞋
+														</a>
+														<a target="_blank" href="">
+															<span>|</span>尿裤湿巾
+														</a>
+														<a target="_blank" href="">
+															<span>|</span>洗护用品
+														</a>
+														<a target="_blank" href="">
+															<span></span>妈妈专区
+														</a>
+									            </div>
+											</li>
+											<li>
+												<h2><a target="_blank" href="">玩具乐器</a></h2>
+									          	<div class="sub_mask_text">
+														<a target="_blank" href="">
+															<span>|</span>模型玩具
+														</a>
+														<a target="_blank" href="">
+															<span>|</span>健身玩具
+														</a>
+														<a target="_blank" href="">
+															<span>|</span>益智玩具
+														</a>
+														<a target="_blank" href="">
+															<span></span>积木拼插
+														</a>
+									            </div>
+											</li>
+											<li>
+												<h2><a target="_blank" href="">生活服务</a></h2>
+									          	<div class="sub_mask_text">
+														<a target="_blank" href="">
+															<span>|</span>旅游
+														</a>
+														<a target="_blank" href="">
+															<span></span>汽车
+														</a>
+									            </div>
+											</li>
+										</ul>
+									</li>
+									<li class="je_li">
+										<a href="#"><i><img src="img/textiles.png" /></i>服饰家纺</a>
+										<ul id="hide_mask" style="margin-top: -231px;">
+											<li>
+												<h2><a target="_blank" href="">家纺</a></h2>
+									          	<div class="sub_mask_text">
+														<a target="_blank" href="">
+															<span>|</span>抱枕靠垫
+														</a>
+														<a target="_blank" href="">
+															<span>|</span>毛巾浴巾
+														</a>
+														<a target="_blank" href="">
+															<span>|</span>枕芯
+														</a>
+														<a target="_blank" href="">
+															<span>|</span>床单被罩
+														</a>
+														<a target="_blank" href="">
+															<span>|</span>毯子
+														</a>
+														<a target="_blank" href="">
+															<span>|</span>床垫床褥
+														</a>
+														<a target="_blank" href="">
+															<span>|</span>蚊帐
+														</a>
+														<a target="_blank" href="">
+															<span>|</span>床品套件
+														</a>
+														<a target="_blank" href="">
+															<span>|</span>被子
+														</a>
+														<a target="_blank" href="">
+															<span>|</span>窗帘/窗纱
+														</a>
+														<a target="_blank" href="">
+															<span></span>凉席
+														</a>
+									            </div>
+											</li>
+											<li>
+												<h2><a target="_blank" href="">男装</a></h2>
+									          	<div class="sub_mask_text">
+														<a target="_blank" href="">
+															<span>|</span>男士上装
+														</a>
+														<a target="_blank" href="">
+															<span></span>男士下装
+														</a>
+									            </div>
+											</li>
+											<li>
+												<h2><a target="_blank" href="">女装</a></h2>
+									          	<div class="sub_mask_text">
+														<a target="_blank" href="">
+															<span>|</span>女式上装
+														</a>
+														<a target="_blank" href="">
+															<span>|</span>女裙
+														</a>
+														<a target="_blank" href="">
+															<span></span>女裤
+														</a>
+									            </div>
+											</li>
+											<li>
+												<h2><a target="_blank" href="">内衣</a></h2>
+									          	<div class="sub_mask_text">
+														<a target="_blank" href="">
+															<span>|</span>女式内衣
+														</a>
+														<a target="_blank" href="">
+															<span></span>男式内衣
+														</a>
+									            </div>
+											</li>
+											<li>
+												<h2><a target="_blank" href="">服饰配件</a></h2>
+									          	<div class="sub_mask_text">
+														<a target="_blank" href="">
+															<span>|</span>帽子手套围巾
+														</a>
+														<a target="_blank" href="">
+															<span>|</span>眼镜
+														</a>
+														<a target="_blank" href="">
+															<span></span>腰带
+														</a>
+									            </div>
+											</li>
+											<li>
+												<h2><a target="_blank" href="">流行男鞋</a></h2>
+									          	<div class="sub_mask_text">
+														<a target="_blank" href="">
+															<span>|</span>男式正装鞋
+														</a>
+														<a target="_blank" href="">
+															<span>|</span>男式休闲鞋
+														</a>
+														<a target="_blank" href="">
+															<span></span>男式拖鞋
+														</a>
+									            </div>
+											</li>
+											<li>
+												<h2><a target="_blank" href="">时尚女鞋</a></h2>
+									          	<div class="sub_mask_text">
+														<a target="_blank" href="">
+															<span>|</span>女式皮靴
+														</a>
+														<a target="_blank" href="">
+															<span>|</span>女式休闲鞋
+														</a>
+														<a target="_blank" href="">
+															<span></span>女式拖鞋
+														</a>
+									            </div>
+											</li>
+											<li>
+												<h2><a target="_blank" href="">功能箱包</a></h2>
+									          	<div class="sub_mask_text">
+														<a target="_blank" href="">
+															<span>|</span>潮流女包
+														</a>
+														<a target="_blank" href="">
+															<span>|</span>精品男包
+														</a>
+														<a target="_blank" href="">
+															<span></span>功能箱包
+														</a>
+									            </div>
+											</li>
+											<li>
+												<h2><a target="_blank" href="">运动户外</a></h2>
+									          	<div class="sub_mask_text">
+														<a target="_blank" href="">
+															<span>|</span>运动鞋包
+														</a>
+														<a target="_blank" href="">
+															<span>|</span>运动服饰
+														</a>
+														<a target="_blank" href="">
+															<span>|</span>户外鞋服
+														</a>
+														<a target="_blank" href="">
+															<span>|</span>户外装备
+														</a>
+														<a target="_blank" href="">
+															<span>|</span>健身训练
+														</a>
+														<a target="_blank" href="">
+															<span></span>纤体瑜伽
+														</a>
+									            </div>
+											</li>
+											<li>
+												<h2><a target="_blank" href="">礼品</a></h2>
+									          	<div class="sub_mask_text">
+														<a target="_blank" href="">
+															<span></span>礼品
+														</a>
+									            </div>
+											</li>
+										</ul>
+									</li>
+									<li class="je_li">
+										<a href="#"><i><img src="img/digital.png" /></i>数码家电</a>
+										<ul id="hide_mask" style="margin-top: -289px;">
+											<li>
+												<h2><a target="_blank" href="">家用电器</a></h2>
+									          	<div class="sub_mask_text">
+														<a target="_blank" href="">
+															<span></span>大家电
+														</a>
+									            </div>
+											</li>
+											<li>
+												<h2><a target="_blank" href="">手机</a></h2>
+									          	<div class="sub_mask_text">
+														<a target="_blank" href="">
+															<span></span>手机通讯
+														</a>
+									            </div>
+											</li>
+											<li>
+												<h2><a target="_blank" href="">手机配件</a></h2>
+									          	<div class="sub_mask_text">
+														<a target="_blank" href="">
+															<span>|</span>耳机
+														</a>
+														<a target="_blank" href="">
+															<span></span>其他配件
+														</a>
+									            </div>
+											</li>
+											<li>
+												<h2><a target="_blank" href="">数码产品</a></h2>
+									          	<div class="sub_mask_text">
+														<a target="_blank" href="">
+															<span>|</span>数码配件
+														</a>
+														<a target="_blank" href="">
+															<span></span>娱乐影音
+														</a>
+									            </div>
+											</li>
+											<li>
+												<h2><a target="_blank" href="">电脑办公</a></h2>
+									          	<div class="sub_mask_text">
+														<a target="_blank" href="">
+															<span>|</span>外设产品
+														</a>
+														<a target="_blank" href="">
+															<span>|</span>办公设备
+														</a>
+														<a target="_blank" href="">
+															<span></span>文具、耗材
+														</a>
+									            </div>
+											</li>
+										</ul>
+									</li>
+									<li class="je_li">
+										<a href="#"><i><img src="img/jewelry.png" /></i>黄金珠宝</a>
+										<ul id="hide_mask" style="margin-top: -348px;">
+											<li>
+												<h2><a href="">金银饰品</a></h2>
+									          	<div class="sub_mask_text">
+														<a href="">
+															<span>|</span>纯金K金饰品
+														</a>
+														<a href="">
+															<span>|</span>金银投资
+														</a>
+														<a href="">
+															<span></span>银饰
+														</a>
+									            </div>
+											</li>
+											<li>
+												<h2><a href="">珠宝玉石</a></h2>
+									          	<div class="sub_mask_text">
+														<a href="">
+															<span>|</span>翡翠玉石
+														</a>
+														<a href="">
+															<span>|</span>钻石
+														</a>
+														<a href="">
+															<span>|</span>水晶玛瑙
+														</a>
+														<a href="">
+															<span>|</span>时尚饰品
+														</a>
+														<a href="">
+															<span>|</span>彩宝
+														</a>
+														<a href="">
+															<span>|</span>天然木饰
+														</a>
+														<a href="">
+															<span></span>珍珠
+														</a>
+									            </div>
+											</li>
+											<li>
+												<h2><a href="">钟表</a></h2>
+									          	<div class="sub_mask_text">
+													<a href="">
+														<span>|</span>男表
+													</a>
+													<a href="">
+														<span></span>女表
+													</a>
+									            </div>
+											</li>
+										</ul>
+									</li>
+								</div>
+								</ul>
+							</div>
+						</li>
+						<div class="shouye">
+							<li><a href="index.html">首页</a></li>
+							<li><a href="channel.html">直播</a></li>
+							<li><a href="golbal_buy.html">全球购</a></li>
+							<li><a href="brand.html">品牌馆</a></li>
+							<li><a href="even.html">特惠活动</a></li>
+							<li><a href="redpocket.html">抢红包</a></li>
+						</div>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--直播频道-->
+		<div class="live_channel">
+			<ul class="channel_active">
+				<li>
+					<a href="#">江苏直播</a>
+					<i></i>
+				</li>
+				<li>
+					<a href="#">全国直播</a>
+					<i></i>
+				</li>
+			</ul>
+			<div class="living_tab_content">
+				<div class="tab-pane">
+					<!--当前直播开始-->
+					<div class="living">
+						<div class="living_left">
+							<!--用js控制添加视频播放器-->
+						</div>
+						<div class="living_right">
+							<li>
+								<div class="living_right_title">
+									<img src="img/video_icon.png" >
+									<font>10:40-11:30</font>
+									<a href="#">节目表></a>
+								</div>
+								<div class="world_s">
+									<a href="#">
+										<img src="img/K5xiaodug.jpg" alt="也雅国色天香新古典六层收纳柜" title="也雅国色天香新古典六层收纳柜">
+									</a>
+									<div class="world_s_pic_gray">立减<br />30元</div>
+								</div>
+								<div class="world_s_title">
+									<a href="#">也雅国色天香新古典六层收纳柜</a>
+								</div>
+								<div class="sp_num">商品货号：9202001</div>
+								<div class="world_price"><span>¥</span>698.00</div>
+							</li>
+							<div class="play_hot_but">
+								<a class="#">立即购买</a>
+							</div>
+						</div>
+					</div>
+					<div class="program_sequence">
+						<!--上一档节目开始-->
+						<div class="program_left">
+							<div class="program_left_title">
+								<div class="program_left_title_name">上一档节目</div>
+								<span>10:15-10:40</span>
+							</div>
+							<div class="program_left_con">
+								<div class="con_img">
+									<a href="#"><img src="img/149278091091731024M.jpg"></a>
+									<div class="sales_num"><p>立减<br />30元</p></div>
+									<!--图标icon-->
+									<div class="left_arr"></div>
+								</div>
+								<div class="con_info">
+									<span>商品货号：</span>
+									<font>9207084</font>
+									<div class="con_info_name">
+										<a href="#">老板新款未来窗烟灶消3件组</a>
+									</div>
+									<div class="con_info_price">¥6,580.00</div>
+									<a class="btn-info" href="#">立即购买</a>
+								</div>
+							</div>
+						</div>
+						<!--下一档节目开始-->
+						<div class="program_right">
+							<div class="program_left_title">
+								<div class="program_left_title_name">下一档节目</div>
+								<span>11:30-12:10</span>
+							</div>
+							<div class="program_left_con">
+								<div class="con_img">
+									<a href="#"><img src="img/bolt.jpg" alt="韩伊4D水光紧致面膜独供组" title="韩伊4D水光紧致面膜独供组"></a>
+									<div class="sales_num"><p>立减<br />30元</p></div>
+									<!--图标icon-->
+									<div class="left_arr"></div>
+								</div>
+								<div class="con_info">
+									<span>商品货号：</span>
+									<font>9209519</font>
+									<div class="con_info_name">
+										<a href="#">韩伊4D水光紧致面膜独供组</a>
+									</div>
+									<div class="con_info_price">¥299.00</div>
+									<a role="button" class="btn-info" href="#">立即购买</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--节目表开始-->
+					<div class="playbill">
+						<div class="chn_playbill_title">节目表
+							<div class="more">
+								<a href="#">更多节目表&gt;&gt;&gt;</a>
+							</div>
+						</div>
+						<div id="myCarousel" class="my_living_slide">
+							<div class="carousel-inner">
+								<div class="item">
+									<ul>
+										<li class="" data-index="0">
+											<p>00:00-00:50</p>
+											<a href="#"><img class="" alt="美国西屋智能洁身器(年终特惠)" title="美国西屋智能洁身器(年终特惠)" src="img/14.51.jpg"></a>
+											<span>¥1,980.00</span>
+											<div class="my_living_name">
+												<a href="#">美国西屋智能洁身器(年终特惠)</a>
+											</div>
+										</li>
+										<li class="" data-index="1">
+											<p>00:50-01:40</p>
+											<a href="#"><img class="" alt="ARSA皇爵品味真钻机械表" title="ARSA皇爵品味真钻机械表" src="img/b1.jpg"></a>
+											<span>¥3,990.00</span>
+											<div class="my_living_name">
+												<a href="#">ARSA皇爵品味真钻机械表</a>
+											</div>
+										</li>
+										<li class="" data-index="2">
+											<p>01:40-02:30</p>
+											<a href="#"><img class="" alt="戴森DysonV6无线吸尘器" title="戴森DysonV6无线吸尘器" src="img/147140065006286709m.jpg"></a>
+											<span>¥2,590.00</span>
+											<div class="my_living_name">
+												<a href="#">戴森DysonV6无线吸尘器</a>
+											</div>
+										</li>
+										<li class="" data-index="3">
+											<p>02:30-03:20</p>
+											<a href="#"><img class="" alt="欧斯特臻品橡木桶葡萄酒套组" title="欧斯特臻品橡木桶葡萄酒套组" src="img/jiu.jpg"></a>
+											<span>¥1,280.00</span>
+											<div class="my_living_name">
+												<a href="#">欧斯特臻品橡木桶葡萄酒套组</a>
+											</div>
+										</li>
+									</ul>
+								</div>
+							<!--<div class="item">
+						<ul>
+									<li class="" data-index="4">
+										<p>03:20-04:10</p>
+										<a href="#"><img class="" alt="喜庭电热恒温晾晒架超值组" title="喜庭电热恒温晾晒架超值组" src="img/14864374342075591M.jpg"></a>
+										<span>¥759.00</span>
+										<div class="my_living_name">
+											<a href="#">喜庭电热恒温晾晒架超值组</a>
+										</div>
+									</li>
+									<li class="" data-index="5">
+										<p>04:10-05:00</p>
+										<a href="#"><img class="" alt="宝庆银楼九龙贺岁银碗如意套组" title="宝庆银楼九龙贺岁银碗如意套组" src="img/146880655956915488M.jpg"></a>
+										<span>¥1,880.00</span>
+										<div class="my_living_name">
+											<a href="#">宝庆银楼九龙贺岁银碗如意套组</a>
+										</div>
+									</li>
+									<li class="" data-index="6">
+										<p>
+											05:00-05:50
+										</p>
+										<a href="#"><img class="" alt="帝王洁具高端卫浴新春特惠组" title="帝王洁具高端卫浴新春特惠组" src="img/147418709000377340M.jpg"></a>
+										<span>¥3,999.00</span>
+										<div class="my_living_name">
+											<a href="#">帝王洁具高端卫浴新春特惠组</a>
+										</div>
+									</li>
+									<li class="" data-index="7">
+										<p>05:50-06:40</p>
+										<a href="#"><img class="" alt="汉灸堂家用智能遥控艾灸仪" title="汉灸堂家用智能遥控艾灸仪" src="img/148012525097062977M.jpg"></a>
+										<span>¥2,980.00</span>
+										<div class="my_living_name">
+											<a href="#">汉灸堂家用智能遥控艾灸仪</a>
+										</div>
+									</li>
+								</ul>
+							</div>
+							<div class="item">
+								<ul>
+									<li class="" data-index="8">
+										<p>06:40-07:00</p>
+										<a href="#"><img class="" alt="雷允上三七粉特惠礼盒装" title="雷允上三七粉特惠礼盒装" src="img/147331719897626951M.jpg"></a>
+										<span>¥299.00</span>
+										<div class="my_living_name">
+											<a href="#">雷允上三七粉特惠礼盒装</a>
+										</div>
+									</li>
+									<li class="" data-index="9">
+										<p>07:00-07:20</p>
+										<a href="#"><img class="" alt="雷允上三七粉礼盒装2套直降组" title="雷允上三七粉礼盒装2套直降组" src="img/147331729732111798M.jpg"></a>
+										<span>¥499.00</span>
+										<div class="my_living_name">
+											<a href="#">雷允上三七粉礼盒装2套直降组</a>
+										</div>
+									</li>
+									<li class="" data-index="10">
+										<p>07:20-08:10</p>
+										<a href="#"><img class="" alt="莱克无线劲霸吸尘器劲爆组" title="莱克无线劲霸吸尘器劲爆组" src="img/147140065006286709M.jpg"></a>
+										<span>¥1,399.00</span>
+										<div class="my_living_name">
+											<a href="#">莱克无线劲霸吸尘器劲爆组</a>
+										</div>
+									</li>
+									<li class="" data-index="11">
+										<p>08:10-09:00</p>
+										<a href="#"><img class="" alt="莱克碧云泉免安装净水器劲爆组" title="莱克碧云泉免安装净水器劲爆组" src="img/147909263457724263M.jpg"></a>
+										<span>¥2,999.00</span>
+										<div class="my_living_name">
+											<a href="#">莱克碧云泉免安装净水器劲爆组</a>
+										</div>
+									</li>
+								</ul>
+							</div>
+							<div class="item">
+								<ul>
+									<li class="" data-index="12">
+										<p>09:00-09:50</p>
+										<a href="#"><img class="" alt="帝王洁具高端卫浴新春特惠组" title="帝王洁具高端卫浴新春特惠组" src="img/147418709000377340M.jpg"></a>
+										<span>¥3,999.00</span>
+										<div class="my_living_name">
+											<a href="#">帝王洁具高端卫浴新春特惠组</a>
+										</div>
+									</li>
+									<li class="" data-index="13">
+										<p>09:50-10:15</p>
+										<a href="#"><img class="" alt="老板全新未来窗烟灶2件独供组" title="老板全新未来窗烟灶2件独供组" src="img/147158955706728954M.jpg"></a>
+										<span>¥4,580.00</span>
+										<div class="my_living_name">
+											<a href="#">老板全新未来窗烟灶2件独供组</a>
+										</div>
+									</li>
+									<li class="" data-index="14">
+										<p>10:15-10:40</p>
+										<a href="#"><img class="" alt="老板新款未来窗烟灶消3件组" title="老板新款未来窗烟灶消3件组" src="img/147159105576254095M.jpg">
+										</a>
+										<span>¥6,580.00</span>
+										<div class="my_living_name">
+											<a href="#">老板新款未来窗烟灶消3件组</a>
+										</div>
+									</li>
+									<li class="" data-index="15">
+										<p>正在直播</p>
+										<a href="#"><img class="" alt="也雅国色天香新古典六层收纳柜" title="也雅国色天香新古典六层收纳柜" src="img/148489109524191746M.jpg"></a>
+										<span>¥698.00</span>
+										<div class="my_living_name">
+											<a href="#">也雅国色天香新古典六层收纳柜</a>
+										</div>
+									</li>
+								</ul>
+							</div>
+							<div class="item">
+								<ul>
+									<li class="" data-index="16">
+										<p>11:30-12:10</p>
+										<a href="#"><img class="" alt="韩伊4D水光紧致面膜独供组" title="韩伊4D水光紧致面膜独供组" src="img/147927626405752525M.jpg"></a>
+										<span>¥299.00</span>
+										<div class="my_living_name">
+											<a href="#">韩伊4D水光紧致面膜独供组</a>
+										</div>
+									</li>
+									<li class="" data-index="17">
+										<p>
+											12:10-13:00
+										</p>
+										<a href="#"><img class="" alt="OGUMA医美级玻尿酸抚纹尊享" title="OGUMA医美级玻尿酸抚纹尊享" src="img/148169812578123348M.jpg"></a>
+										<span>¥698.00</span>
+										<div class="my_living_name">
+											<a href="#">OGUMA医美级玻尿酸抚纹尊享</a>
+										</div>
+									</li>
+									<li class="" data-index="18">
+										<p>13:00-13:40</p>
+										<a href="#"><img class="" alt="Barbie蚕丝内里绑带文胸3+2" title="Barbie蚕丝内里绑带文胸3+2" src="img/147669619834931823M.jpg"></a>
+										<span>¥298.00</span>
+										<div class="my_living_name">
+											<a href="#">Barbie蚕丝内里绑带文胸3+2</a>
+										</div>
+									</li>
+									<li class="" data-index="19">
+										<p>13:40-14:30</p>
+										<a href="#"><img class="" alt="汉灸堂家用智能遥控艾灸仪" title="汉灸堂家用智能遥控艾灸仪" src="img/148012525097062977M.jpg"></a>
+										<span>¥2,980.00</span>
+										<div class="my_living_name">
+											<a href="#">汉灸堂家用智能遥控艾灸仪</a>
+										</div>
+									</li>
+								</ul>
+							</div>
+						<!-- Controls -->
+							</div>
+							<a class="left_carousel"></a>
+							<a class="right_carousel"></a>
+						</div>
+					</div>
+				</div>
+				<!--昨日热销开始-->
+				<div class="last_hot">
+					<div class="chn_playbill_title">昨日热销</div>
+					<div class="last_hot_list">
+						<ul>
+							<li class="last">
+								<div class="world_s_pic">
+									<a href="#">
+										<img class="" alt="五洲风干牛肉美味分享装" title="五洲风干牛肉美味分享装" src="img/niurou.jpg">
+									</a>
+								</div>
+								<div class="left world_s_price">¥298.00</div>
+								<div class="world_s_title">
+									<a href="#" title="五洲风干牛肉美味分享装">五洲风干牛肉美味分享装</a>
+								</div>
+							</li>
+							<li>
+								<div class="world_s_pic">
+									<a href="#">
+										<img class="" alt="五粮液股份富贵天下佳藏苏独享" title="五粮液股份富贵天下佳藏苏独享" src="img/147858998730267751M.jpg">
+									</a>
+								</div>
+								<div class="left world_s_price">¥998.00</div>
+								<div class="world_s_title">
+									<a href="#" title="五粮液股份富贵天下佳藏苏独享">五粮液股份富贵天下佳藏苏独享</a>
+								</div>
+							</li>
+							<li>
+								<div class="world_s_pic">
+									<a href="#">
+										<img class="" alt="韩国原装O-Zone瓷百牙膏贺岁组" title="韩国原装O-Zone瓷百牙膏贺岁组" src="img/148032141613545297m.jpg">
+									</a>
+								</div>
+								<div class="left world_s_price">¥199.00</div>
+								<div class="world_s_title">
+									<a href="#" title="韩国原装O-Zone瓷百牙膏贺岁组">韩国原装O-Zone瓷百牙膏贺岁组</a>
+								</div>
+							</li>
+							<li>
+								<div class="world_s_pic">
+									<a href="#">
+										<img class="" alt="可李司时尚收纳沙发年终特价装" title="可李司时尚收纳沙发年终特价装" src="img/148299783623080755M.jpg">
+									</a>
+								</div>
+								<div class="left world_s_price">¥368.00</div>
+								<div class="world_s_title">
+									<a href="#" title="可李司时尚收纳沙发年终特价装">可李司时尚收纳沙发年终特价装</a>
+								</div>
+							</li>
+							<li class="last">
+								<div class="world_s_pic">
+									<a href="#">
+										<img class="" alt="德国卡蜂零添加蜂巢蜜年终特惠" title="德国卡蜂零添加蜂巢蜜年终特惠" src="img/fengmi.jpg">
+									</a>
+								</div>
+								<div class="left world_s_price">¥398.00</div>
+								<div class="world_s_title">
+									<a href="#" title="德国卡蜂零添加蜂巢蜜年终特惠">德国卡蜂零添加蜂巢蜜年终特惠</a>
+								</div>
+							</li>
+						</ul>
+						<ul>
+							<li>
+								<div class="world_s_pic">
+									<a href="#">
+										<img class="" alt="艾多卡通带轮收纳箱2只装" title="艾多卡通带轮收纳箱2只装" src="img/xiangzi.jpg">
+									</a>
+								</div>
+								<div class="left world_s_price">¥99.00</div>
+								<div class="world_s_title">
+									<a href="#" title="艾多卡通带轮收纳箱2只装">艾多卡通带轮收纳箱2只装</a>
+								</div>
+							</li>
+							<li>
+								<div class="world_s_pic">
+									<a href="#">
+										<img class="" alt="爱仕达韩式玫瑰陶瓷煲" title="爱仕达韩式玫瑰陶瓷煲" src="img/148913337737285705M.jpg">
+									</a>
+								</div>
+								<div class="left world_s_price">¥298.00</div>
+								<div class="world_s_title">
+									<a href="#" title="爱仕达韩式玫瑰陶瓷煲">爱仕达韩式玫瑰陶瓷煲</a>
+								</div>
+							</li>
+							<li>
+								<div class="world_s_pic">
+									<a href="#">
+										<img class="" alt="雷允上三七粉礼盒装2套直降组" title="雷允上三七粉礼盒装2套直降组" src="img/lihe1.jpg">
+									</a>
+								</div>
+								<div class="left world_s_price">¥499.00</div>
+								<div class="world_s_title">
+									<a href="#" title="雷允上三七粉礼盒装2套直降组">雷允上三七粉礼盒装2套直降组</a>
+								</div>
+							</li>
+							<li class="last">
+								<div class="world_s_pic">
+									<a href="#">
+										<img class="" alt="汉灸堂家用全智能遥控艾灸仪" title="汉灸堂家用全智能遥控艾灸仪" src="img/149024667890963135M.jpg">
+									</a>
+								</div>
+								<div class="left world_s_price">¥2,980.00</div>
+								<div class="world_s_title">
+									<a href="#" title="汉灸堂家用全智能遥控艾灸仪">汉灸堂家用全智能遥控艾灸仪</a>
+								</div>
+							</li>
+							<li>
+								<div class="world_s_pic">
+									<a href="#">
+										<img class="" alt="OGUMA多效合一妈妈霜抗皱组" title="OGUMA多效合一妈妈霜抗皱组" src="img/boitowm.jpg">
+									</a>
+								</div>
+								<div class="left world_s_price">¥398.00</div>
+								<div class="world_s_title">
+									<a href="#" title="OGUMA多效合一妈妈霜抗皱组">OGUMA多效合一妈妈霜抗皱组</a>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--底部-->
+		<div class="fooldbox">
+			<div class="fooldtu">
+				<ul>
+					<li></li>
+					<li><i></i></li>
+					<li><i></i></li>
+					<li><i></i></li>
+					<li><i></i></li>
+				</ul>
+			</div>
+			<div class="fooldbottom">
+				<div class="kehud_weixin">
+					<span>
+						<img src="img/app_code.jpg" />
+						到客户端领取红包
+					</span>
+					<span>
+						<img src="img/wechart_code.jpg" />
+						扫一扫关注微信
+					</span>
+				</div>
+				<ul>
+					<li>订购指南</li>
+					<li>新手帮助</li>
+					<li>注册协议</li>
+					<li>发票说明</li>
+					<li>售后服务</li>
+				</ul>
+				<ul>
+					<li>支付方式</li>
+					<li>在线支付</li>
+					<li>货到付款</li>
+					<li>电话支付</li>
+				</ul>
+				<ul>
+					<li>配送服务</li>
+					<li>自营商品配送</li>
+					<li>品牌商品配送</li>
+					<li>全球购商品配送</li>
+				</ul>
+				<ul>
+					<li>顾客须知</li>
+					<li>会员权益</li>
+					<li>购物金规则</li>
+					<li>优惠券规则</li>
+					<li>税费规则</li>
+				</ul>
+				<ul>
+					<li>友情链接</li>
+					<li>江苏电视台</li>
+					<li>荔枝网</li>
+					<li>幸福蓝海</li>
+					<li>海米派</li>
+				</ul>
+			</div>
+			<div class="bottoms">
+				<div class="Tels">
+					<a href="#">关于好享购物</a>|
+					<a href="#">供应商系统</a>|
+					<a href="#">商家入驻</a>|
+					<a href="#">联系我们</a>
+				</div>
+				<div class="hrs"></div>
+				<div class="kapian">
+					<ul>
+						<li>
+							<a href="#"><img src="img/link_yinlian.gif" /></a>
+						</li>
+						<li>
+							<a href="#"><img src="img/zhifubao.gif" /></a>
+						</li>
+						<li>
+							<a href="#"><img src="img/jingwei.gif" /></a>
+						</li>
+						<li>
+							<a href="#"><img src="img/szfw_cert.gif" /></a>
+						</li>
+						<li>
+							<a href="#"><img src="img/golden.jpg" /></a>
+						</li>
+					</ul>
+				</div>
+				<div class="adrees">
+					<div class="log"><img src="img/copyrights.jpg" /> </div>
+					<div class="content">
+						<p>江苏省广播电视总台（集团）成员企业</p>
+						<p>Copyright@2009-2017好享购物Hao24.com版权所有</p>
+						<p>客服热线：400-608-8888苏ICP备08119934号</p>
+						<p>支持方正正版字体</p>
+					</div>
+				</div>
+				<div class="gs">
+					<img src="img/ebsicon.png" />
+				</div>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript" src="js/publictop.js"></script>
+	<script type="text/javascript" src="js/全部类目.js"></script>
+</html>
